@@ -5,7 +5,7 @@ The project architecture involves several key components:
 - Data Loading and Preprocessing: Utilizes OpenCV to load and preprocess the BreakHis dataset, resizing images to 260x260 pixels.
 - Model Building: Implements a multi-class classification model using EfficientNetV2B2 architecture from TensorFlow's `applications` module.
 - Model Evaluation: Utilizes various performance metrics like accuracy, ROC AUC, recall, and F1-score for model evaluation.
-- **Visualization: Displays a confusion matrix to visualize model performance on test data.
+- Visualization: Displays a confusion matrix to visualize model performance on test data.
 
 Design Decisions:
 - Data Preprocessing: Resizes images to a specific dimension to suit the model input requirements.
