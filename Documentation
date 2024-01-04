@@ -1,0 +1,26 @@
+Breast Histopathology Image Classification Project Documentation
+
+Project Architecture:
+The project architecture involves several key components:
+- Data Loading and Preprocessing: Utilizes OpenCV to load and preprocess the BreakHis dataset, resizing images to 260x260 pixels.
+- Model Building: Implements a multi-class classification model using EfficientNetV2B2 architecture from TensorFlow's `applications` module.
+- Model Evaluation: Utilizes various performance metrics like accuracy, ROC AUC, recall, and F1-score for model evaluation.
+- **Visualization: Displays a confusion matrix to visualize model performance on test data.
+
+Design Decisions:
+- Data Preprocessing: Resizes images to a specific dimension to suit the model input requirements.
+- Model Selection: Chooses EfficientNetV2B2 due to its proven performance in image classification tasks.
+- Evaluation Metrics:** Uses accuracy, ROC AUC, recall, and F1-score to comprehensively evaluate model performance.
+
+Algorithms Used:
+- EfficientNetV2B2: Employed as the base architecture for multi-class image classification.
+- GradCAM: Applied to visualize and interpret model predictions on test images.
+
+Dependencies:
+The project relies on the following major dependencies:
+- TensorFlow for deep learning tasks.
+- OpenCV for image loading and preprocessing.
+- scikit-learn for model evaluation metrics.
+- Matplotlib for visualizing data and results.
+- Captum library for implementing GradCAM.
+
