@@ -10,18 +10,14 @@ The project aim to develop an interpretable Deep Learning Model based on Convolu
 
 
 # Usage:
-# Dataset Preparation:
-Ensure you have the BreakHis dataset or specify your dataset path. Modify the `dataset_directory` variable in `breast_histopathology.py` to point to your dataset location.
-
-# Training the Classification Model:
-Run `breast_histopathology.py` to load, preprocess, and train the classification model. View the console for training progress and evaluation metrics.
-
-# Visualizing GradCAM Results:
-Update the `dataset_path` variable in `gradcam_visualization.py` with your dataset path. Execute `gradcam_visualization.py` to generate GradCAM visualizations for model predictions on test images.
+1. Ensure you have the BreakHis dataset or specify your dataset path. Modify the `dataset_directory` variable in the notebook to point to your dataset location.
+2. Training the Classification Model.
+3. Testing the Model 
+4. Visualizing GradCAM Results.
 
 # Additional Information:
 - This project utilizes TensorFlow, PyTorch, and OpenCV libraries for deep learning tasks.
-- For detailed instructions and examples, refer to the documentation provided in this repository.
+- For detailed instructions, refer to the documentation provided in this repository.
 
 
 
