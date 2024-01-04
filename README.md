@@ -13,7 +13,7 @@ The project aim to develop an interpretable Deep Learning Model based on Convolu
 1. Ensure you have the BreakHis dataset or specify your dataset path. Modify the `dataset_directory` variable in the notebook to point to your dataset location.
 2. Training the Classification Model.
 3. Testing the Model 
-4. Visualizing GradCAM Results.
+4. Paste the image path you want the details for visualizing GradCAM Results .
 
 # Additional Information:
 - This project utilizes TensorFlow, PyTorch, and OpenCV libraries for deep learning tasks.
